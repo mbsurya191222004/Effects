@@ -1,5 +1,10 @@
 import { useState, type JSX } from "react";
-import Menu from "./Menu";
+import Menu from "./Menu.tsx";
+
+function searchSimilar(input: string, list: string[]): string[] {
+  const lowerInput = input.toLowerCase();
+  return list.filter(item => item.toLowerCase().includes(lowerInput));
+}
 
 function Navbar() {
 
@@ -10,12 +15,12 @@ function Navbar() {
     }
 
     const mobile : JSX.Element = (
-    <>
-        <div className="bg-amber-500 h-[7vh] flex ">
+
+        <div className="bg-secondary relative w-[100vw] h-[7vh] flex ">
             <div id="logo" className="w-[70%] px-2">
                 <img src="\LOGO-removebg.png" alt="logo" className="h-[100%]" />
             </div>
-            <div id="buttons" className="w-[30%] flex justify-evenly p-0">
+            <div id="buttons" className="w-[30%] flex justify-evenly p-0 ">
                 <button>
                     <img src="\Search.svg" alt="logo" className="h-7.5" />
                 </button>
@@ -23,9 +28,10 @@ function Navbar() {
                     <img src="\Menu.svg" alt="logo" className="h-7.5" />
                 </button>
             </div>
+            {showMenu && <Menu/>}
         </div>
-    {showMenu && <Menu/>}
-    </>
+    
+
         
     )
 
