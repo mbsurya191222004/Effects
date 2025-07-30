@@ -6,7 +6,7 @@ function Contact() {
     <ul className="list-disc list-inside p-3.5">
     <li className="p-3.5">Email: <a href="mailto:namokareffects@gmail.com">namokareffects@gmail.com</a></li>
       <li className="p-3.5">Phone: <a href="tel:+919873544640">+91 98735 44640</a></li>
-      <li className="p-3.5"><strong>Location:</strong> WZ-428, Naraina Village,New Delhi - 110 028, Delhi, India</li>
+      <li className="p-3.5">Location: WZ-428, Naraina Village,New Delhi - 110 028, Delhi, India</li>
     </ul>      
     </div>
   </div>
