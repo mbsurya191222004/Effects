@@ -5,18 +5,6 @@ function Home() {
 
   const navigate = useNavigate();
 
-  const ToGreeting= () => {
-      navigate('/greetingcards')
-  }
-  const ToWrapping= () => {
-      navigate('/wrapping')
-  }
-  const ToStationary= () => {
-      navigate('/Stationary')
-  }
-
-
-
     return ( 
 <div 
 className="bg-primary"
@@ -37,7 +25,7 @@ className="bg-primary"
 <hr />
   <div className=" text-center px-10 py-12">
     <p className="text-2xl">
-      Established in 2005, Effects by Namokar Enterprises is a leading Indian manufacturer and exporter of high-quality greeting cards, wrapping sheets, and paper-based gifting items. From festive cards to elegant notebooks, every piece is crafted with care, premium materials, and eye-catching designs—making every celebration more meaningful.
+      Established in 2005, Effects by Namokar Enterprises is a leading Indian manufacturer and exporter of high-quality greeting cards, wrapping sheets, and paper-based gifting items. From festive cards to elegant notebooks, every piece is crafted with care, premium materials, and eye-catching designs-making every celebration more meaningful.
     </p>
   </div>
 <hr />
@@ -45,19 +33,19 @@ className="bg-primary"
     <div className="container mx-auto">
       <h3 className="text-3xl font-bold  mb-8 text-center">Our Products</h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="bg-tertiary p-6 rounded-lg shadow hover:shadow-lg transition" onClick={ToGreeting}>
+        <div onClick={() =>navigate("/sub")} className="bg-tertiary p-6 rounded-lg shadow hover:shadow-lg transition" >
           <h4 className="text-3xl font-semibold p-8 text-center">Greeting Cards</h4>
           <p className="font-medium text-2xl text-center px-3 ">
             New Year, Diwali, Valentine’s, Christmas, Rakhi, Wedding & Birthday cards with beautiful designs and quotes.
           </p>
         </div>
-        <div onClick={ToStationary} className="bg-tertiary p-6 rounded-lg shadow hover:shadow-lg transition">
+        <div onClick={() =>navigate("/sub")} className="bg-tertiary p-6 rounded-lg shadow hover:shadow-lg transition">
           <h4 className="text-3xl font-semibold p-8 text-center">Stationery & Gifting</h4>
           <p className="font-medium text-2xl text-center px-3 ">
             Thoughtfully designed Slam Books and Notebooks for memorable occasions and personal use.
           </p>
         </div>
-        <div onClick={ToWrapping} className="bg-tertiary p-6 rounded-lg shadow hover:shadow-lg transition">
+        <div onClick={() =>navigate("/sub")} className="bg-tertiary p-6 rounded-lg shadow hover:shadow-lg transition">
           <h4 className="text-3xl font-semibold p-8 text-center">Wrapping Sheets</h4>
           <p className="font-medium text-2xl text-center px-3 ">
             High-quality, vibrant wrapping sheets perfect for festivals, birthdays, and celebrations.

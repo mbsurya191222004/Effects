@@ -1,4 +1,4 @@
-import {motion} from "motion/react"
+import {easeInOut, motion} from "motion/react"
 
 function Menu() {
     return (  
@@ -12,10 +12,16 @@ function Menu() {
                 opacity : 1 ,
                 right : 0,
             }}
-        transition={{
-            duration : 0.55 ,
+        exit={{
+            opacity : 0 ,
+            right : "-100%"
         }}
-        className="bg-tertiary absolute h-70 w-60 top-[100%] right-0 flex flex-col justify-evenly m-0 z-50 rounded-bl-3xl"
+        transition={{
+            duration : 0.6 ,
+            ease : easeInOut,
+        }}
+        className="bg-tertiary absolute h-70 w-60 top-[100%] right-0 flex flex-col justify-evenly m-0 z-50 rounded-bl-3xl border-secondary
+         border-l-2 border-b-2 shadow-2xl"
         >
 
             <a href="/#/" className=" h-[30%] text-lg flex flex-col justify-evenly items-center ">

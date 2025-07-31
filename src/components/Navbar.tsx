@@ -1,5 +1,6 @@
 import { useState, type JSX } from "react";
 import Menu from "./Menu.tsx";
+import { AnimatePresence } from "motion/react";
 
 function searchSimilar(input: string, list: string[]): string[] {
   const lowerInput = input.toLowerCase();
@@ -28,7 +29,10 @@ function Navbar() {
                     <img src="\Menu.svg" alt="logo" className="h-7.5" />
                 </button>
             </div>
-            {showMenu && <Menu/>}
+            <AnimatePresence>
+                {showMenu && <Menu/>}
+            </AnimatePresence>
+            
         </div>
     
 
