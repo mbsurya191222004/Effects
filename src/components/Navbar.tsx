@@ -1,7 +1,7 @@
 import { useState, type JSX } from "react";
 import Menu from "./Menu.tsx";
 import { AnimatePresence } from "motion/react";
-import { redirect, useNavigate } from "react-router-dom";
+
 
 
 function Navbar() {
