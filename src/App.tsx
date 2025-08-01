@@ -48,7 +48,7 @@ function App() {
         </>     
         <Route path="/Slam Book" element={<Catfolder len={12} type={"Slam Books"} baseUrl="\Products\Slam Book"/>}/>
         <Route path="/Shagun Envelope" element={<Catfolder len={6} type={"Shagun Envelopes"} baseUrl="\Products\Shagun Envelope"/>}/>
-         
+         <Route path="*" element={<Home/>}/>
         </Routes>
     </HashRouter>
     

@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 type ButtonProps = {
     path : string,
     heading : string,
-    description : string
+    description : string,
 }
 
 const ButtonCard : React.FC<ButtonProps> = (ButtonProps) => {
