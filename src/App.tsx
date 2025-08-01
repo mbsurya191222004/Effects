@@ -9,7 +9,6 @@ import Catfolder from './components/Catfolder.tsx'
 
 
 function App() {
-//chceking
   const GreetingCardTypes = ["Anniversary","Best Wishes","Birthday","Congratulations","Farewell","Love","Relations","Sorry","Thank You","Wedding Day"]
 
   const WrappingPaperTypes =["Diwali","Floral","Golden & Silver","Marble","Wooden","Birthday","Christmas",]
