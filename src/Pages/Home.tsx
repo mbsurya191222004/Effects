@@ -10,7 +10,7 @@ className="bg-primary"
   <div 
   className="flex items-center justify-center "
   >
-    <div className=" bg-[url('\img_wrap1.jpg')] bg-cover h-90  flex flex-col justify-center items-center p-8 rounded text-center w-[100vw]">
+    <div className=" bg-[url('/img_wrap1.jpg')] bg-cover h-90  flex flex-col justify-center items-center p-8 rounded text-center w-[100vw]">
       <motion.h2 
         initial={{
       opacity : 0,
