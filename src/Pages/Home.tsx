@@ -1,11 +1,6 @@
-
-import { useNavigate } from "react-router-dom";
 import ButtonCard from "../components/ButtonCard";
 
 function Home() {
-
-  const navigate = useNavigate();
-
     return ( 
 <div 
 className="bg-primary"
@@ -33,16 +28,18 @@ className="bg-primary"
   <section id="products" className="bg-secondary py-16 px-6 w-full">
     <div className="container mx-auto">
       <h3 className="text-3xl font-bold  mb-8 text-center">Our Products</h3>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <ButtonCard path="/GreetingCards" heading="Greeting Cards" description="New Year, Diwali, Valentine’s, Christmas, Rakhi, Wedding & Birthday cards with beautiful designs and quotes."/>
-        <ButtonCard path="/WrappingPaper" heading="Wrapping Sheets" description="High-quality, vibrant wrapping sheets perfect for festivals, birthdays, and celebrations." />
-      </div>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <ButtonCard path="/Wrapping Paper" heading="Wrapping Sheets" description="High-quality, vibrant wrapping sheets perfect for festivals, birthdays, and celebrations." />
+        <ButtonCard path="/Greeting Card" heading="Greeting Cards" description="New Year, Diwali, Valentine’s, Christmas, Rakhi, Wedding & Birthday cards with beautiful designs and quotes."/>
+        <ButtonCard path="/Slam Book" heading="Slam Books" description="Capture memories, thoughts, and heartfelt messages from friends in one cherished place. A timeless keepsake of love, laughter, and friendship." />
+        <ButtonCard path="/Shagun Envelope" heading="Shagun Envelope" description="A beautiful token to gift blessings and good wishes with grace. Perfect for weddings, festivals, and special occasions." />
+        </div>
     </div>
   </section>
 
   <section id="sustainability" className="container mx-auto py-16 px-6">
-    <h3 className="text-3xl font-bold  mb-6">Craftsmanship & Vision</h3>
-    <p className=" max-w-3xl leading-relaxed">
+    <h3 className="text-4xl font-bold  mb-6">Craftsmanship & Vision</h3>
+    <p className="text-2xl max-w-3xl leading-relaxed">
       At Effects, each product is crafted with care using premium materials and advanced printing techniques. Led by Mr. Anil Kumar, our team of skilled professionals combines creativity with quality, offering customizable designs that reflect emotions and elegance.
     </p>
   </section>

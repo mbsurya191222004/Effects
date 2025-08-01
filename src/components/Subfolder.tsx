@@ -13,19 +13,18 @@ const Subfolder : React.FC<SubfolderProps> = (SubfolderProps) => {
     
 
     return ( 
-        <>
-        <div className="bg-primary text-5xl text-center font-semibold p-4">{current}</div>
-        <div className="bg-primary flex flex-wrap min-h-[100vh] p-4 min-w-[100vw]">
+        <div className="min-h-[100vh] bg-primary">
+        <div className="bg-primary text-5xl text-center font-semibold py-8">{`${current}s`}</div>
+        <div className="bg-primary flex flex-wrap  p-4 min-w-[100vw]">
                 
                 {
                 list.map((type)=>
-                    <Card heading={`${type}`} imgSrc={`/Products/${current}/${type}/1.jpg`}/>
+                    <Card path={`/${current}/${type}`} heading={`${type}`} imgSrc={`/Products/${current}/${type}/1.jpg`}/>
                 )
-
                 }
             
         </div>
-        </>
+        </div>
      );
 }
 
