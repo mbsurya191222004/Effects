@@ -15,7 +15,7 @@ className="bg-primary"
         initial={{
       opacity : 0,
       y : "15%"
-    }}
+    }} 
     whileInView={{
       opacity : 1,
       y : "0%"
