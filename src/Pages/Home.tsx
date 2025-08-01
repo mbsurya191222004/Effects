@@ -9,7 +9,7 @@ className="bg-primary"
   <div 
   className="flex items-center justify-center "
   >
-    <div className="bg-[url('img_wrap1.jpg')] h-90 bg-cover flex flex-col justify-center items-center p-8 rounded text-center w-[100vw]">
+    <div className="bg-[url('/img_wrap1.jpg')] h-90 bg-cover flex flex-col justify-center items-center p-8 rounded text-center w-[100vw]">
       <h2 className="bg-primary/70 p-4 bg-clip-border w-fit text-4xl font-extrabold rounded-xl  mb-4">
         Effects 
       </h2>
