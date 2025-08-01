@@ -11,7 +11,7 @@ className="bg-primary"
   >
     <div className="bg-[url('/img_wrap1.jpg')] h-90 bg-cover flex flex-col justify-center items-center p-8 rounded text-center w-[100vw]">
       <h2 className="bg-primary/70 p-4 bg-clip-border w-fit text-4xl font-extrabold rounded-xl  mb-4">
-        Namokar Effects 
+        Effects 
       </h2>
       <p className="bg-primary/70 p-4 font-bold text-2xl rounded-xl ">
         Creating heartfelt expressions with premium greeting cards and wrapping solutions since 2005.
@@ -43,9 +43,6 @@ className="bg-primary"
       At Effects, each product is crafted with care using premium materials and advanced printing techniques. Led by Mr. Anil Kumar, our team of skilled professionals combines creativity with quality, offering customizable designs that reflect emotions and elegance.
     </p>
   </section>
-
-
-
 </div>
 
 
