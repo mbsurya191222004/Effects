@@ -18,7 +18,7 @@ function Navbar() {
         <div className="bg-secondary relative w-[100vw] h-[7vh] flex ">
             <div id="logo" className="w-[80%] px-2">
             <a href="/#" className="w-[30%]">
-                <img src="\LOGO-removebg.png" alt="logo" className="h-[100%]" />
+                <img src=".\LOGO-removebg.png" alt="logo" className="h-[100%]" />
             </a>
             </div>
             <div id="buttons" className="w-[20%] flex justify-evenly p-0 ">
