@@ -5,7 +5,8 @@ import Home from './Pages/Home.tsx'
 import Contact from './Pages/Contact.tsx'
 import About from './Pages/About.tsx'
 import Subfolder from './components/Subfolder.tsx'
-import Catfolder from './components/CatFolder.tsx'
+import Catfolder from './components/Catfolder.tsx'
+
 
 function App() {
 
