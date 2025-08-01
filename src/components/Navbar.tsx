@@ -28,8 +28,7 @@ function Navbar() {
             </div>
             <AnimatePresence>
                 {showMenu && <Menu/>}
-            </AnimatePresence>
-            
+            </AnimatePresence>    
         </div>
     
 

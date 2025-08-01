@@ -14,9 +14,10 @@ function App() {
   const WrappingPaperTypes =["Diwali","Floral","Golden & Silver","Marble","Wooden","Birthday","Christmas",]
 
   return (
-    <div>
-    <Navbar></Navbar>
+    
+    
     <BrowserRouter>
+    <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/contact" element={<Contact/>}/>
@@ -52,7 +53,7 @@ function App() {
         </Routes>
     </BrowserRouter>
     
-    </div>
+    
   )
 }
 

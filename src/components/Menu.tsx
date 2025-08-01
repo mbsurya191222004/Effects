@@ -1,8 +1,15 @@
 import {easeInOut, motion} from "motion/react"
+import { useNavigate } from "react-router-dom";
 
 function Menu() {
+
+    const navigate = useNavigate()
+
+    const handleNavClick = (link : string) => {
+        navigate(link)
+    }
+ 
     return (  
-        
         <motion.div 
         initial = {{
             opacity : 0 ,
@@ -24,15 +31,15 @@ function Menu() {
          border-l-2 border-b-2 shadow-2xl font-semibold "
         >
 
-            <a href="/" className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center ">
+            <div onClick={() => handleNavClick('/')} className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center ">
                 Home
-            </a>
-            <a  href="about" className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center">
+            </div>
+            <div  onClick={() =>handleNavClick('/about')} className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center">
                 About us
-            </a>
-            <a  href="/contact" className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center">
+            </div>
+            <div  onClick={() =>handleNavClick('/contact')} className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center">
                 Contact Us
-            </a>
+            </div>
         </motion.div>
         
     );
