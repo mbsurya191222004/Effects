@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme{
-    --color-primary: #C1DFF0;
-    --color-secondary: #3587A4;
-    --color-tertiary: #88ccf1;
+    --color-primary: #A07856;
+    --color-secondary: #6F4D38;
+    --color-tertiary: #CBB799;
 }
 
 
@@ -12,6 +12,7 @@ html,body{
     font-family: "Viaoda Libre";
     font-size: small;
     font-weight:lighter;
+    color : #3d211a;
     
     
     margin: 0;

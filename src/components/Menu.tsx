@@ -31,7 +31,7 @@ function Menu() {
                 About us
             </a>
             <a  href="/#/contact" className=" h-[30%] text-lg flex flex-col justify-evenly items-center">
-                Contact
+                Contact Us
             </a>
         </motion.div>
         

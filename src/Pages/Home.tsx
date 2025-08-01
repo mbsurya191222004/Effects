@@ -9,7 +9,7 @@ className="bg-primary"
   <div 
   className="flex items-center justify-center "
   >
-    <div className="bg-[url('/img_wrap1.jpg')] h-90 bg-cover flex flex-col justify-center items-center p-8 rounded text-center w-[100vw]">
+    <div className=" h-90 bg-cover flex flex-col justify-center items-center p-8 rounded text-center w-[100vw]">
       <h2 className="bg-primary/70 p-4 bg-clip-border w-fit text-4xl font-extrabold rounded-xl  mb-4">
         Effects 
       </h2>
@@ -18,14 +18,14 @@ className="bg-primary"
       </p>
     </div>
   </div>
-<hr />
-  <div className=" text-center px-10 py-12">
+
+  <div className="bg-tertiary text-center px-10 py-12">
     <p className="text-2xl">
       Established in 2005, Effects by Namokar Enterprises is a leading Indian manufacturer and exporter of high-quality greeting cards, wrapping sheets, and paper-based gifting items. From festive cards to elegant notebooks, every piece is crafted with care, premium materials, and eye-catching designs-making every celebration more meaningful.
     </p>
   </div>
-<hr />
-  <section id="products" className="bg-secondary py-16 px-6 w-full">
+
+  <section id="products" className="bg-linear-to-tr from-primary to-tertiary py-16 px-6 w-full">
     <div className="container mx-auto">
       <h3 className="text-3xl font-bold  mb-8 text-center">Our Products</h3>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
