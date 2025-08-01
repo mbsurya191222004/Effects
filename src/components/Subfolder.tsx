@@ -15,7 +15,7 @@ const Subfolder : React.FC<SubfolderProps> = (SubfolderProps) => {
     return ( 
         <div className="min-h-[100vh] bg-primary">
         <div className="bg-primary text-5xl text-center font-semibold py-8">{`${current}s`}</div>
-        <div className="bg-primary flex flex-wrap  p-4 min-w-[100vw]">
+        <div className=" flex flex-wrap justify-around  p-4 w-[100vw]">
                 
                 {
                 list.map((type)=>

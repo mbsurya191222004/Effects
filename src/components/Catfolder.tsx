@@ -24,7 +24,7 @@ const Catfolder : React.FC<CatfolderProps> = (CatfolderProps) => {
     return ( 
         <div className="bg-primary min-h-[100vh]">
         <div className="bg-primary text-5xl text-center font-semibold py-8">{CatfolderProps.type}</div>
-        <div className="bg-primary flex flex-wrap  p-4 min-w-[100vw]">
+        <div className="flex flex-wrap justify-around p-4 w-[100vw]">
                 
                 {
                 
