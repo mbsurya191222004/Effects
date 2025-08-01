@@ -27,7 +27,7 @@ function Menu() {
             <a href="/" className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center ">
                 Home
             </a>
-            <a  href="/about" className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center">
+            <a  href="about" className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center">
                 About us
             </a>
             <a  href="/contact" className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center">
