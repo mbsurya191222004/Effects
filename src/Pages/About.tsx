@@ -1,7 +1,7 @@
 function About() {
     return ( 
     <div 
-    className=" bg-primary relative min-h-[100vh]  p-10 -z-10"
+    className=" bg-primary relative min-h-[100vh]  p-10 -z-10 font-semibold"
     >
         <div className=" bg-secondary rounded-3xl p-3 relative min-h-[100vh] text-left text-xl flex flex-col justify-center items-center align-middle  px-10 -z-10">
         <h1 className="font-bold text-4xl my-6">About Us</h1>
