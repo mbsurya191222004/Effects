@@ -24,13 +24,13 @@ function Menu() {
          border-l-2 border-b-2 shadow-2xl font-semibold "
         >
 
-            <a href="/#/" className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center ">
+            <a href="/" className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center ">
                 Home
             </a>
-            <a  href="/#/about" className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center">
+            <a  href="/about" className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center">
                 About us
             </a>
-            <a  href="/#/contact" className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center">
+            <a  href="/contact" className=" h-[5%] text-2xl  flex flex-col justify-evenly items-center">
                 Contact Us
             </a>
         </motion.div>
