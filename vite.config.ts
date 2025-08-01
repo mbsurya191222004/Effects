@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base : 'https://github.com/mbsurya191222004/Effects',
+  base : '/Effects/',
   server : {
     host : true ,
     port : 8000,
