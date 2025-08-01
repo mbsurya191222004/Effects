@@ -27,7 +27,7 @@ const Card: React.FC<CardProps> = ({ path = "",heading ,imgSrc, imgAlt = "image"
       ease : easeInOut,
     }}
     onClick={() => path != "" ? navigate(path) : null }
-    className="bg-tertiary p-4 my-[5vw] rounded-xl flex flex-col items-center w-[40vw] h-[30%] shadow-lg">
+    className="bg-tertiary opacity-100 p-4 my-[5vw] rounded-xl flex flex-col items-center w-[40vw] h-[30%] shadow-lg">
       <h1 className="">{heading}</h1>
       <motion.img 
       animate={{

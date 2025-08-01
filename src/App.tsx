@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar.tsx'
-import { HashRouter,Routes,Route } from 'react-router-dom'
+import { HashRouter,Routes,Route, Router, BrowserRouter } from 'react-router-dom'
 import Home from './Pages/Home.tsx'
 import Contact from './Pages/Contact.tsx'
 import About from './Pages/About.tsx'
@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
     <Navbar></Navbar>
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/contact" element={<Contact/>}/>
@@ -50,7 +50,7 @@ function App() {
         <Route path="/Shagun Envelope" element={<Catfolder len={6} type={"Shagun Envelopes"} baseUrl="\Products\Shagun Envelope"/>}/>
          <Route path="*" element={<Home/>}/>
         </Routes>
-    </HashRouter>
+    </BrowserRouter>
     
     </div>
   )
