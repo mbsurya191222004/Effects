@@ -1,7 +1,7 @@
 import { useState, type JSX } from "react";
 import Menu from "./Menu.tsx";
 import { AnimatePresence } from "motion/react";
-
+import { Turn as Hamburger } from 'hamburger-react'
 
 
 function Navbar() {
@@ -23,7 +23,7 @@ function Navbar() {
             </div>
             <div id="buttons" className="w-[20%] flex justify-evenly p-0 ">
                 <button onClick={handleMenuClick}>
-                    <img src="\Menu.svg" alt="logo" className="h-7.5" />
+                    <Hamburger duration={0.58}/>
                 </button>
             </div>
             <AnimatePresence>
