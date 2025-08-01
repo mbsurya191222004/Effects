@@ -5,18 +5,15 @@ function About() {
     >
         <div className=" bg-secondary rounded-3xl p-3 relative min-h-[100vh] text-left text-xl flex flex-col justify-center items-center align-middle  px-10 -z-10">
         <h1 className="font-bold text-4xl my-6">About Us</h1>
-        <p className="text-left"><strong>Namokar Enterprises</strong>, established in 2005 and based in New Delhi, is a reputed manufacturer, exporter, and supplier of an exclusive range of greeting cards and related products. We specialize in:</p>
+        <p className="text-left"><strong>Namokar Enterprises</strong>, established in 2005 and based in New Delhi, is a reputed manufacturer, exporter, and supplier of an exclusive range of greeting cards and related products. We specialize in :</p>
         <ul className="list-decimal list-outside text-left font-extralight">
-            <li>New Year Cards</li>
-            <li>Christmas (X-Mas) Cards</li>
+            <li>Wrapping Sheets</li>
+            <li>Greeting Cards</li>
             <li>Valentine Cards</li>
-            <li>Birthday Cards</li>
+            <li>Carry Bags</li>
             <li>Wedding Cards</li>
-            <li>Thank You Cards</li>
-            <li>Anniversary Cards</li>
-            <li>Best Wishes Cards</li>
-            <li>Diwali & Rakhi Cards</li>
-            <li>Slam Books, Notebooks & Wrapping Sheets</li>
+            <li>Slam Books</li>
+            <li>Shagun Envelopes</li>
         </ul>
 <br />
         <p>Each product is designed by our skilled professionals using modern tools and premium raw materials, ensuring elegant design, superior color printing, and excellent finish. Customization in terms of size, shape, and content is available as per customer requirements.</p>

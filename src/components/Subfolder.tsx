@@ -2,13 +2,14 @@ import Card from "./Card";
 
 type SubfolderProps = {
     product : string
+    types : Array<string>
 }
 
 const Subfolder : React.FC<SubfolderProps> = (SubfolderProps) => {
 
-    const current = "greet"
+    const current = SubfolderProps.product
 
-    const types = ["anniversary","bday","best wishes","congrats","farewell","love","relations","sorry","thank you","wedding"]
+    const list = SubfolderProps.types
     
 
     return ( 
@@ -17,8 +18,8 @@ const Subfolder : React.FC<SubfolderProps> = (SubfolderProps) => {
         <div className="bg-primary flex flex-wrap min-h-[100vh] p-4 min-w-[100vw]">
                 
                 {
-                types.map((type)=>
-                    <Card heading={`${type}`} imgSrc={`/products/${current}/${type}/1.jpg`}/>
+                list.map((type)=>
+                    <Card heading={`${type}`} imgSrc={`/Products/${current}/${type}/1.jpg`}/>
                 )
 
                 }
