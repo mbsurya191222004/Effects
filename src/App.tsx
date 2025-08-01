@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar.tsx'
-import { HashRouter,Routes,Route, Router, BrowserRouter } from 'react-router-dom'
+import {Routes,Route, BrowserRouter } from 'react-router-dom'
 import Home from './Pages/Home.tsx'
 import Contact from './Pages/Contact.tsx'
 import About from './Pages/About.tsx'
