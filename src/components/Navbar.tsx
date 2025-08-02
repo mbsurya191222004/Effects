@@ -1,14 +1,22 @@
-import { useState, type JSX } from "react";
+import { useEffect, useState, type JSX } from "react";
 import Menu from "./Menu.tsx";
 import { AnimatePresence } from "motion/react";
 import { Turn as Hamburger } from 'hamburger-react'
 import { isMobile } from "react-device-detect";
 import Navbutton from "./Navbutton.tsx";
+import { useLocation } from "react-router-dom";
+
 
 
 function Navbar() {
 
+    const location = useLocation();
+
     const [showMenu,setShowMenu] = useState(false)
+
+    useEffect(() => {
+    setShowMenu(false)
+  }, [location]);
     
 
     const handleMenuClick = () => {
