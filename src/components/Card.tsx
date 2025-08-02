@@ -6,9 +6,10 @@ type CardProps = {
   heading: string;
   path ?: string;
   imgAlt?: string;
+  width? : string;
 };
 
-const Card: React.FC<CardProps> = ({ path = "",heading ,imgSrc, imgAlt = "image" }) => {
+const Card: React.FC<CardProps> = ({ path = "",heading ,imgSrc, imgAlt = "image",width = "40%" }) => {
 
   const navigate = useNavigate()
 
@@ -18,7 +19,7 @@ const Card: React.FC<CardProps> = ({ path = "",heading ,imgSrc, imgAlt = "image"
       opacity : 0,
       y : "5%"
     }}
-    whileInView={{
+    animate={{
       opacity : 1,
       y : "0%"
     }}
@@ -26,8 +27,9 @@ const Card: React.FC<CardProps> = ({ path = "",heading ,imgSrc, imgAlt = "image"
       duration : 1,
       ease : easeInOut,
     }}
+    viewport={{ once: true, amount: 0 }} 
     onClick={() => path != "" ? navigate(path) : null }
-    className="bg-tertiary opacity-100 p-4 my-[5vw] rounded-xl flex flex-col items-center w-[40vw] h-[30%] shadow-lg">
+    className={`bg-tertiary opacity-100 p-4 my-[5%] rounded-xl flex flex-col items-center w-[${width}] h-[30%] shadow-lg`}>
       <h1 className="">{heading}</h1>
       <motion.img 
       animate={{

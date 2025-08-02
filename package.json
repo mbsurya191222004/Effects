@@ -17,6 +17,7 @@
     "hamburger-react": "^2.5.2",
     "motion": "^12.23.11",
     "react": "^19.1.0",
+    "react-device-detect": "^2.2.3",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.7.1"
   },

@@ -1,5 +1,6 @@
 import type { JSX } from "react";
 import Card from "./Card";
+import { isMobile } from "react-device-detect";
 
 type CatfolderProps = {
     baseUrl : string;
@@ -16,7 +17,7 @@ const Catfolder : React.FC<CatfolderProps> = (CatfolderProps) => {
 
     for(let num=1;num<=len;num++){
         elements.push(
-            <Card heading={`${CatfolderProps.type} #${num}`} imgSrc={`${base}/${num}.jpg`}/>
+            <Card width={isMobile?"40%":"30%"} heading={`${CatfolderProps.type} #${num}`} imgSrc={`${base}/${num}.jpg`}/>
         )
     }
     

@@ -3,7 +3,7 @@ function About() {
     <div 
     className=" bg-primary relative min-h-[100vh]  p-10 -z-10 font-semibold"
     >
-        <div className=" bg-secondary rounded-3xl p-3 relative min-h-[100vh] text-left text-xl flex flex-col justify-center items-center align-middle  px-10 -z-10">
+        <div className=" bg-secondary rounded-3xl p-3 relative min-h-[90vh] text-left text-xl flex flex-col justify-center items-center align-middle  px-10 -z-10">
         <h1 className="font-bold text-4xl my-6">About Us</h1>
         <p className="text-left"><strong>Namokar Enterprises</strong>, established in 2005 and based in New Delhi, is a reputed manufacturer, exporter, and supplier of an exclusive range of greeting cards and related products. We specialize in :</p>
         <ul className="list-decimal list-outside text-left font-extralight">
